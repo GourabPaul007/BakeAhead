@@ -1,0 +1,139 @@
+.eachShowPiece {
+  display: flex;
+  margin-left: 48px;
+  margin-right: 48px;
+  /* overflow: hidden; */
+}
+.imageDiv {
+  width: 60vw;
+  /* height: 600px; */
+  /* padding-left: 200px; */
+}
+.bottomImages {
+  width: 70%;
+  height: 600px;
+  object-fit: cover;
+}
+.aboutDiv {
+  width: 40vw;
+  padding: 48px;
+  padding-left: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+@media only screen and (max-width: 992px) {
+  .bottomImages {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+
+  .eachShowPiece {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+  /* .aboutDiv {
+    padding-right: 12px;
+  } */
+  /* .imageDiv {
+    padding-left: 12px;
+  } */
+}
+
+@media (max-width: 820px) {
+  .eachShowPiece {
+    flex-direction: column;
+    /* display: grid;
+    place-items: center; */
+  }
+  .imageDiv {
+    width: 100%;
+    /* height: 400px; */
+    /* padding-left: 48px;
+    padding-right: 48px; */
+  }
+  .aboutDiv {
+    width: 100%;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
+
+/*SECTION1*/
+.section1 {
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+.section1 section {
+  width: 50%;
+  margin: 0 20px;
+}
+.imageSection {
+  width: 60% !important;
+}
+.section1 img {
+  width: 100%;
+  height: 70vh;
+}
+.section1 p {
+  line-height: 2em;
+}
+
+@media (max-width: 820px) {
+  .section1 {
+    /* display: block; */
+    display: flex;
+    flex-direction: column;
+  }
+  .section1 section {
+    /* order: 1; */
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+  }
+  .section1 img {
+    order: -1000;
+    width: 95%;
+  }
+}
+
+.btn1 {
+  background-color: #1e1e1e;
+  text-align: center;
+  color: #fff;
+  padding: 15px 30px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn1:hover {
+  background: #000;
+  box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+}
+
+.btn2 {
+  background-color: #3399ff;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+  border: 0;
+  display: block;
+  width: 150px;
+  margin-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 40px;
+
+  text-decoration: none;
+  text-transform: none;
+}
+
+.btn2:hover {
+  background-color: #2c41a1;
+  color: #fff;
+  box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+}

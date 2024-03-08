@@ -1,0 +1,60 @@
+div.dropdown-menu.show {
+  /* for drop down menu color */
+  background-color: transparent;
+  border: hidden;
+}
+a.dropdown-item {
+  /* for font color of individual drop down item */
+  /* color: #000000; */
+  color: #fff;
+}
+
+/* .nav-item .dropdown-menu {
+  background: #000000;
+} */
+
+.nav-item .dropdown-item {
+  /* color: #ffffff; */
+  font-weight: 500;
+}
+* .nav-item .dropdown-item:hover {
+  background: #f0ad4e;
+  color: #fff;
+}
+
+div.dropdown-menu.show {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  /* color: #fff !important; */
+  font-weight: 500;
+}
+/* for dropdown link */
+.navbar-light .navbar-nav .nav-link :hover {
+  color: #000 !important;
+}
+/* for other links, The space before hover is important */
+.nav-link:hover {
+  /* background-color: green !important; */
+  color: #000 !important;
+}
+
+.navbarBrand {
+  position: absolute;
+  top: 8px;
+  left: 48px;
+}
+.logoImg {
+  width: 200px;
+}
+@media only screen and (max-width: 600px) {
+  .navbarBrand {
+    left: 24px;
+  }
+  .logoImg {
+    width: 120px;
+    left: 20px;
+  }
+}
